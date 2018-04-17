@@ -1,0 +1,32 @@
+{
+  "name": "matlo-slack",
+  "version": "0.0.0",
+  "description": "Capture message from slack to display them in Matlo dashboard",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "build": "docker build -t aileo/matlo-slack:$npm_package_ version ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aileo/matlo-slack.git"
+  },
+  "keywords": [
+    "Matlo",
+    "Slack"
+  ],
+  "author": "aileo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aileo/matlo-slack/issues"
+  },
+  "homepage": "https://github.com/aileo/matlo-slack#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "matlo": "^0.1.1",
+    "moment": "^2.22.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.0"
+  }
+}
