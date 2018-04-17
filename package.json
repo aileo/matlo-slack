@@ -1,6 +1,6 @@
 {
   "name": "matlo-slack",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Capture message from slack to display them in Matlo dashboard",
   "main": "main.js",
   "scripts": {
