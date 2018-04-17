@@ -1,0 +1,51 @@
+[
+  {
+    "columnName": "team_id",
+    "type": "terms",
+    "typeSettings": {}
+  },
+  {
+    "columnName": "team_domain",
+    "type": "terms",
+    "typeSettings": {}
+  },
+  {
+    "columnName": "service_id",
+    "type": "terms",
+    "typeSettings": {}
+  },
+  {
+    "columnName": "channel_id",
+    "type": "terms",
+    "typeSettings": {}
+  },
+  {
+    "columnName": "channel_name",
+    "type": "terms",
+    "typeSettings": {}
+  },
+  {
+    "columnName": "timestamp",
+    "type": "date",
+    "typeSettings": {
+      "mask": "YYYY/MM/DD HH:mm:ss"
+    }
+  },
+  {
+    "columnName": "user_id",
+    "type": "terms",
+    "typeSettings": {}
+  },
+  {
+    "columnName": "user_name",
+    "type": "terms",
+    "typeSettings": {}
+  },
+  {
+    "columnName": "text",
+    "type": "other",
+    "typeSettings": {
+      "subtype": "text"
+    }
+  }
+]
